@@ -103,7 +103,7 @@ const Sidebar = () => {
   };
 
   const sidebarContent = (
-    <div style={{ width: '240px', backgroundColor: '#171829', color: 'white', padding: '1rem', height: '100vh', overflowY: 'auto' }}>
+    <div style={{ width: '250px', backgroundColor: '#171829', color: 'white', padding: '1rem', height: 'auto', overflowY: 'auto' }}>
       {/* Logo and Dashboard Icon Row */}
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: "space-between", marginBottom: '2rem' }}>
         <div style={{
