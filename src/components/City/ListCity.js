@@ -146,7 +146,8 @@ const ListCity = () => {
         textAlign: 'center',
         padding: '4px 8px',
         borderRadius: 1,
-        display: 'inline-block',}}> {row.status}</Typography></TableCell>
+        display: 'inline-block',
+        fontSize:10}}> {row.status}</Typography></TableCell>
                     <TableCell>
                       <IconButton color="primary">
                         <EditIcon />
