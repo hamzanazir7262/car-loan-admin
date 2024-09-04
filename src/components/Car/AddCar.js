@@ -66,7 +66,7 @@ const AddCar = () => {
         <Typography variant="h4">Car Management</Typography>
       </Box>
 
-      <Box bgcolor="white" borderRadius={2} boxShadow={3} minWidth={1000} p={3}>
+      <Box bgcolor="white" borderRadius={2} boxShadow={3} minWidth={900} p={3}>
         <Typography variant="h4">Car Information</Typography>
         <Divider sx={{ mb: 2 }} />
         {/* First Row: 4 Fields */}

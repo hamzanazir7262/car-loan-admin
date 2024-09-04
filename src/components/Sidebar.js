@@ -103,9 +103,21 @@ const Sidebar = () => {
   };
 
   const sidebarContent = (
-    <div style={{ width: '250px', backgroundColor: '#171829', color: 'white', padding: '1rem', height: 'auto', overflowY: 'auto' }}>
+    <div style={{ 
+      width: '250px', 
+      backgroundColor: '#171829', 
+      color: 'white', 
+      padding: '1rem', 
+      // height: '100vh',  // Make the sidebar take the full height of the viewport
+      // overflowY: 'auto'  // Enable vertical scrolling if content overflows
+    }}>
       {/* Logo and Dashboard Icon Row */}
-      <div style={{ display: 'flex', alignItems: 'center', justifyContent: "space-between", marginBottom: '2rem' }}>
+      <div style={{ 
+        display: 'flex', 
+        alignItems: 'center', 
+        justifyContent: "space-between", 
+        marginBottom: '2rem' 
+      }}>
         <div style={{
           width: '50px',
           height: '50px',
@@ -161,6 +173,7 @@ const Sidebar = () => {
       </List>
     </div>
   );
+  
 
   return (
     <>
